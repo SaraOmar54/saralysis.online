@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sara Omar | Data Analyst</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      color: #1f2937;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      align-items: center;
+      padding: 20px 60px;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      background: white;
+      z-index: 10;
+    }
+
+    header img {
+      height: 48px;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 40px;
+    }
+
+    /* HERO */
+    .hero h1 {
+      font-size: 46px;
+      color: #1d4ed8;
+      margin-bottom: 10px;
+    }
+
+    .hero .title {
+      font-size: 22px;
+      color: #374151;
+      margin-bottom: 25px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 650px;
+    }
+
+    /* HEADINGS */
+    h2 {
+      color: #1d4ed8;
+      font-size: 32px;
+      margin-bottom: 25px;
+    }
+
+    /* SERVICES */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #1d4ed8;
+      margin-bottom: 12px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #1d4ed8;
+      color: white;
+      padding: 60px 40px;
+      text-align: center;
+    }
+
+    footer h2 {
+      color: white;
+    }
+
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+      display: inline-block;
+      margin: 10px 15px;
+      font-weight: 500;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+      header {
+        padding: 20px;
+      }
+
+      section {
+        padding: 60px 20px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="logo.png" alt="Saralysis Logo">
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Sara Omar</h1>
+    <div class="title">Data Analyst</div>
+    <p>
+      I help organizations turn complex data into clear insights through
+      analytics, dashboards, and automation.
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About</h2>
+    <p>
+      I am a data analyst with experience in data cleaning, analysis, visualization,
+      and reporting. My focus is on delivering accurate, actionable insights that
+      support better business decisions.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section>
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Data Analysis</h3>
+        <p>Data cleaning, transformation, and insight generation.</p>
+      </div>
+      <div class="card">
+        <h3>Dashboards</h3>
+        <p>Interactive dashboards using Power BI and Tableau.</p>
+      </div>
+      <div class="card">
+        <h3>Reporting Automation</h3>
+        <p>Automated reports using Excel, Python, and Power Query.</p>
+      </div>
+      <div class="card">
+        <h3>AI-Enhanced Analysis</h3>
+        <p>Using AI tools to improve efficiency and decision-making.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer>
+    <h2>Contact</h2>
+    <a href="mailto:info@saralysis.online">info@saralysis.online</a>
+    <a href="https://www.linkedin.com/in/sara-omar54/" target="_blank">LinkedIn</a>
+    <a href="https://wa.me/549113881348" target="_blank">WhatsApp</a>
+  </footer>
+
+</body>
+</html>
